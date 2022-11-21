@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  #container-bar {
+    display: block;
+    text-align: start;
+  }
+  #container-bar a {
+    display: block;
+    width: 100%;
+  }
+  #target,
+  #personal-info {
+    width: 100% !important;
+  }
+  #job-info > .container {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+  }
+  #job-info > .container > * {
+    margin-top: 0;
+  }
+  .certificate-grid {
+    display: block;
+  }
+  .certificate-grid > div {
+    padding: 20px;
+    text-align: center;
+
+    border-bottom: 2px solid #d6c08d;
+  }
+  .certificate-grid > div:nth-child(2) {
+    border-left: none;
+  }
+  .certificate-grid > div:nth-child(3) {
+    border-bottom: none;
+  }
+  section > .container {
+    line-height: 28px;
+    font-size: 1em;
+  }
+  #footer li {
+    font-size: 15px;
+  }
+  #footer i {
+    font-size: 27px;
+  }
+}
